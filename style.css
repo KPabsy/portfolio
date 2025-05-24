@@ -1,6 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .cover{
@@ -11,8 +12,9 @@ body, html {
     height: 95vh;
     width: 95vw;
     padding: 40px;
-    margin: 0;
+    margin: 0;    
 }
+
 .cover p{
     background-color: black;
     color: rgb(255, 255, 255);
@@ -24,8 +26,8 @@ body, html {
     font-family: cursive;
     text-decoration: wavy;
     box-sizing: border-box;
-     
 }
+
 
 .cover img{
     border-radius: 50%;
@@ -66,17 +68,16 @@ body, html {
     flex: 1;
     max-width: 35%;
     margin-left: 0;
-    padding-top: 8vh;
+    padding-top: 5vh;
     padding-right: 8vh;
     margin-top: 12vh;
-    margin-bottom: 8vh;
+    margin-bottom: 10vh;
     margin-left: 2vh;
     margin-right: 2vh;
     /* padding-bottom: 25vh; */ 
     font-size: 25px;
     font-weight: 600;
     font-family: cursive;
-    text-decoration: double;
     text-align: center;
     background-color: #000000; /* any color you like */
     border-radius: 50%;
@@ -88,13 +89,44 @@ body, html {
 
 .about_me h3{
     text-align: center;
-    padding-left: 45px;   
+    padding-left: 50px;   
     padding-bottom: 10px;
     font-weight: 600;
 }
 
-
-
 .about_me ul{
     list-style: none;
+}
+
+.goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+    text-align: center;
+}
+
+.goals img{
+    border-radius: 50%;
+    border: 12px double black;
+    background-color: white;
+    margin-right: 60px;
+}
+
+.goals .goals_cont{
+    padding-bottom: 80px;
+}
+
+.goals h3{
+    font-size: 40px;
+}
+.goals ul{
+    list-style: none;
+    text-align: left;
 }
